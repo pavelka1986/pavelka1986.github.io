@@ -1,17 +1,20 @@
-#main
-{
+body {
+	background: none;
+	background: #000428; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000428, #004e92); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#main {
 	max-width: 600px;
 }
-ul.activity
-{
+ul.activity {
 	text-align: left;
 	margin: 0;
 	padding: 0;
-	line-height: 20px;	
+	line-height: 20px;
 	margin-bottom: 10px;
 }
-ul.activity li
-{
+ul.activity li {
 	list-style-type: none;
 	display: inline-block;
 	float: none;
@@ -20,19 +23,15 @@ ul.activity li
 	line-height: 20px;
 	padding: 0;
 	margin: 0;
-	text-transform: none;	
+	text-transform: none;
 }
-div.code
-{
-
+div.code {
 }
-div.code img
-{
+div.code img {
 	width: 100%;
 	height: auto;
 }
-.php
-{
+.php {
 	font-size: 13px;
 	line-height: 16px;
 	text-align: left;
@@ -41,10 +40,8 @@ div.code img
 	letter-spacing: 0em;
 	padding: 0px 10px;
 	margin-bottom: 30px;
-	
 }
-.php *,.php
-{
+.php *, .php {
 	font-weight: normal;
-	letter-spacing: 0em;	
+	letter-spacing: 0em;
 }

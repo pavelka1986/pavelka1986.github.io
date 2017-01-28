@@ -8,7 +8,7 @@ body {
 	max-width: 600px;
 }
 ul.activity {
-	text-align: left;
+	text-align: justify;
 	margin: 0;
 	padding: 0;
 	line-height: 20px;

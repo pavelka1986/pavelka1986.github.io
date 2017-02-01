@@ -21,9 +21,16 @@ ul.activity li {
 	vertical-align: top;
 	font-size: 14px;
 	line-height: 20px;
-	padding: 0;
+	padding: 2px 7px;
 	margin: 0;
+	margin-bottom: 5px;
 	text-transform: none;
+	background: #f7f7f7;
+	border-radius: 5px;
+}
+ul.activity li:hover
+{
+	background: #eee;
 }
 div.code {
 }

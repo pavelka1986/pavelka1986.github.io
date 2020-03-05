@@ -8,3 +8,8 @@
 [class*=" devicon-"], [class^=devicon-] {
 font-size: 20px;
 }
+
+svg {
+    width: 58%;
+    margin-bottom: 30px;
+}
